@@ -1,5 +1,5 @@
 return {
-  {
+{
   "codota/tabnine-nvim",
   build = "./dl_binaries.sh",
   event = "VeryLazy",
@@ -14,6 +14,14 @@ return {
     }
   end,
 },
+{
+  "wakatime/vim-wakatime",
+  event = "VeryLazy",
+},
+{
+  "ntpeters/vim-better-whitespace",
+  event = "VeryLazy"
+}
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
   -- "andweeb/presence.nvim",
